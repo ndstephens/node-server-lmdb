@@ -1,0 +1,18 @@
+{
+  "name": "node-server-lmdb",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "dev-delay": "nodemon index.js --delay=true",
+    "dev-watch-stream": "nodemon index.js --delay=true --numRecords=500",
+    "test-request-data": "node test/test-request-data.js",
+    "test-back-pressure": "node test/test-back-pressure.js",
+    "test-close-connection": "node test/test-close-connection.js"
+  },
+  "dependencies": {
+    "lmdb": "^3.2.6",
+    "nodemon": "^3.1.9"
+  }
+}
