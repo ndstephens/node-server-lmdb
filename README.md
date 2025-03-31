@@ -7,7 +7,7 @@ the client in JSON format.
 The iterator will pause when there is network back-pressure, and terminate and close
 the iterator if the connection is closed early.
 
-The [server.js](./src/server.js) file has an excessive amount of code comments and console logs for monitoring and debugging, plus to explain some of the thought process involved.
+The files have an excessive amount of code comments and console logs for monitoring and debugging, plus to explain some of the thought process involved.
 
 ## Setup and run
 
